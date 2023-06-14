@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import App from "./src/FlashCards";
+
 const App = () => {
   return (
     <div>
-      <h1>Hello React!</h1>
+      <FlashCards />
     </div>
   );
 };
